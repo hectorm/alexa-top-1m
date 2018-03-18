@@ -12,7 +12,7 @@ Alexa top 1 million sites.
 
 ```javascript
 const alexaTop1m = require('alexa-top-1m');
-console.log(topSites);
+console.log(alexaTop1m);
 
 // [
 //   "youtube.com",
