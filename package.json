@@ -1,0 +1,45 @@
+{
+  "name": "alexa-top-1m",
+  "version": "1.0.0",
+  "description": "Alexa top 1 million sites",
+  "keywords": [
+    "alexa",
+    "domains",
+    "list",
+    "rank",
+    "ranking",
+    "sites",
+    "top",
+    "top1m",
+    "websites"
+  ],
+  "author": "Héctor Molinero Fernández <hector@molinero.xyz>",
+  "license": "MIT",
+  "homepage": "https://github.com/zant95/alexa-top-1m",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zant95/alexa-top-1m.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zant95/alexa-top-1m/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "scripts"
+  ],
+  "scripts": {
+    "postinstall": "./scripts/postinstall.js"
+  },
+  "dependencies": {
+    "decompress-unzip": "^4.0.1",
+    "papaparse": "^4.3.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-xo": "^0.20.1",
+    "eslint-config-zant": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-unicorn": "^4.0.2"
+  }
+}
