@@ -15,13 +15,13 @@
   ],
   "author": "Héctor Molinero Fernández <hector@molinero.xyz>",
   "license": "MIT",
-  "homepage": "https://github.com/zant95/alexa-top-1m",
+  "homepage": "https://github.com/hectorm/alexa-top-1m",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zant95/alexa-top-1m.git"
+    "url": "https://github.com/hectorm/alexa-top-1m.git"
   },
   "bugs": {
-    "url": "https://github.com/zant95/alexa-top-1m/issues"
+    "url": "https://github.com/hectorm/alexa-top-1m/issues"
   },
   "main": "index.js",
   "files": [
