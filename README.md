@@ -23,7 +23,7 @@ console.log(alexaTop1m);
 ```
 
 ## License
-[MIT License][license] © [Héctor Molinero Fernández](https://molinero.xyz/).
+[MIT License][license] © [Héctor Molinero Fernández](https://molinero.dev/).
 
 [license]: https://github.com/hectorm/alexa-top-1m/blob/master/LICENSE.md
 [tags]: https://github.com/hectorm/alexa-top-1m/tags

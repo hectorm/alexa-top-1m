@@ -13,7 +13,7 @@
     "top1m",
     "websites"
   ],
-  "author": "Héctor Molinero Fernández <hector@molinero.xyz>",
+  "author": "Héctor Molinero Fernández <hector@molinero.dev>",
   "license": "MIT",
   "homepage": "https://github.com/hectorm/alexa-top-1m",
   "repository": {
@@ -29,17 +29,17 @@
     "scripts"
   ],
   "scripts": {
+    "lint": "eslint --fix .",
     "postinstall": "./scripts/postinstall.js"
   },
   "dependencies": {
     "decompress-unzip": "^4.0.1",
-    "papaparse": "^4.3.7"
+    "papaparse": "^4.6.3"
   },
   "devDependencies": {
-    "eslint": "^4.19.0",
-    "eslint-config-xo": "^0.20.1",
-    "eslint-config-zant": "^2.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-unicorn": "^4.0.2"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-hectorm": "^1.0.0",
+    "eslint-plugin-import": "^2.17.2"
   }
 }
