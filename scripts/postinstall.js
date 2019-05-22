@@ -12,7 +12,8 @@ https.get('https://s3.amazonaws.com/alexa-static/top-1m.csv.zip', response => {
 		const zipBuf = Buffer.concat(data);
 		decompress(zipBuf).then(files => {
 			const csv = files[0].data.toString('utf8');
-			const domains = papa.parse(csv).data.map(row => row[1]);
+			const config = { skipEmptyLines: true };
+			const domains = papa.parse(csv, config).data.map(row => row[1]);
 			fs.writeFileSync('top-1m.json', JSON.stringify(domains));
 		});
 	});
